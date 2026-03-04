@@ -92,6 +92,12 @@ pnpm lint     # Run ESLint
 - Next.js 16.1.6 (App Router) + Monorepo (pnpm workspace)
 - 详见 `03-agent-with-permission/CLAUDE.md`
 
+### 04-agent-teams
+- 基于 03-agent-with-permission 架构，新增 Agent Teams 多 Agent 协作功能
+- Next.js 16.1.6 (App Router) + Monorepo (pnpm workspace)
+- Orchestrator-Subagent 模式，支持多 Agent 并行协作
+- 详见 `04-agent-teams/CLAUDE.md`
+
 ### Key Files
 - `app/layout.tsx`: Root layout with Geist font configuration
 - `app/page.tsx`: Homepage
